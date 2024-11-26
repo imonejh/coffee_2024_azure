@@ -1,0 +1,85 @@
+@charset "UTF-8"; 
+
+/* THIS IS A COMMENT.
+COMMENTS ARE AWESOME.
+YOU'LL USE THEM A LOT.
+*/
+
+
+
+.main_nav{ 
+    display:flex;
+    align-items: center;
+    list-style: none; 
+    padding: .3em;
+    margin: 0;
+    background-color: gold ;
+}  
+
+
+/*style nav links */
+
+.main_nav a {
+    color: white;
+    padding: 60px 40px;
+    text-decoration: none;
+}
+
+/*push logo to the left side visually
+logo should be top item in the list 
+
+li.logo{
+    margin-right: auto;
+}
+*/
+
+/*push logo the the right visually...logo should be BOTTOM item in te list */ 
+
+li.logo{
+    margin-left: auto;
+}
+
+/*style link hover*/
+.main_nav a:hover {
+    color: palevioletred;
+    background-color: white;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+h1 {
+    color: gold;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font: bold 2.2em Times, serif;
+    text-shadow: .05em .03em .01em palevioletred;
+}
+
+h2 {
+    font: bold 1.2em Times, serif;
+    color:darkorange;
+    text-transform: uppercase;
+    letter-spacing: .075em
+}
+
+strong {
+    font: bolder;
+    color: red;
+}
+
+.price {
+    font:bolder;
+    color:rgb(251, 87, 155);
+}
+
+#drinks, #treats,  #healthy {
+    border: 2px solid;
+    background-color: lightyellow;
+    padding: 5px 20px;
+    margin: 10px 20px;
+}
